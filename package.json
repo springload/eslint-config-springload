@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-springload",
   "version": "1.0.0",
-  "description": "Springload's .eslintrc as an extensible shared config. Based on eslint-config-airbnb, but laxer",
+  "description": "Springload's ESLint shareable configuration",
   "license": "MIT",
   "author": "Springload",
   "main": "index.js",
