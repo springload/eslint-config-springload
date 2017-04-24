@@ -6,6 +6,12 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ## Unreleased
 
+## [[v1.0.2]](https://github.com/springload/eslint-config-springload/releases/tag/v1.0.2)
+
+### Fixed
+
+- Depend on the right version of eslint-plugin-jsx-a11y
+
 ## [[v1.0.1]](https://github.com/springload/eslint-config-springload/releases/tag/v1.0.1)
 
 ### Changed
