@@ -1,5 +1,5 @@
 // Specific linting rules for this file to simplify copy/pasting to JSON.
-/* eslint quotes: ["error", "double"], quote-props: ["error", "always"], comma-dangle: ["error", "never"] */
+/* eslint quotes: ["error", "double"], quote-props: ["error", "always"], comma-dangle: ["error", "never"], max-len: ["off"] */
 
 module.exports = {
     "extends": [
