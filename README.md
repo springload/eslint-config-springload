@@ -4,6 +4,20 @@
 
 ## Usage
 
+Install the config and its dependencies:
+
+```sh
+npm install --save-exact --save-dev eslint@3 eslint-config-springload eslint-plugin-import@~2.2.0 eslint-plugin-jsx-a11y@~4.0.0 eslint-plugin-react@~6.10.3
+```
+
+Configure ESLint to use this config. For example, in your package.json, this would be:
+
+```json
+"eslintConfig": {
+  "extends": "springload"
+},
+```
+
 ## Development
 
 ### Install
