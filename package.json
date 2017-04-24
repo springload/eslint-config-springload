@@ -4,9 +4,10 @@
   "description": "Springload's .eslintrc as an extensible shared config. Based on eslint-config-airbnb, but laxer",
   "license": "MIT",
   "author": "Springload",
+  "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/springload/springlint"
+    "url": "https://github.com/springload/eslint-config-springload"
   },
   "keywords": [
     "eslint",
