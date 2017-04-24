@@ -34,7 +34,10 @@ module.exports = {
         // Only use .js file extension.
         "react/jsx-filename-extension": [2, { "extensions": [".js"] }],
         "import/no-extraneous-dependencies": [2, { "devDependencies": true, "optionalDependencies": false, "peerDependencies": false }],
-        "import/prefer-default-export": [0]
+        "import/prefer-default-export": [0],
+        // Does not work at the moment for nested fields.
+        // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-for.md
+        "jsx-a11y/label-has-for": [0]
     },
 
     // http://eslint.org/docs/user-guide/configuring#specifying-environments

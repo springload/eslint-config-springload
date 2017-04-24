@@ -6,6 +6,12 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ## Unreleased
 
+## [[v1.0.1]](https://github.com/springload/eslint-config-springload/releases/tag/v1.0.1)
+
+### Changed
+
+- Disable `jsx-a11y/label-has-for` until it supports nesting of fields.
+
 ## [[v1.0.0]](https://github.com/springload/eslint-config-springload/releases/tag/v1.0.0)
 
 First usable release!
