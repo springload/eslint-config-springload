@@ -18,9 +18,7 @@
     "node": ">=4.0.0"
   },
   "eslintConfig": {
-    "extends": [
-      "./index.js"
-    ]
+    "extends": "./index.js"
   },
   "devDependencies": {
     "eslint": "^3.19.0",
@@ -39,6 +37,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "test": "node index.test.js"
+    "test": "node index.test.js",
+    "test:ci": "npm run lint -s && npm run test -s"
   }
 }
