@@ -1,0 +1,43 @@
+{
+  "name": "eslint-config-springload",
+  "version": "1.0.0",
+  "description": "Springload's .eslintrc as an extensible shared config. Based on eslint-config-airbnb, but laxer",
+  "license": "MIT",
+  "author": "Springload",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/springload/springlint"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "eslint-config"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "./index.js"
+    ]
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "~2.2.0",
+    "eslint-plugin-jsx-a11y": "~4.0.0",
+    "eslint-plugin-react": "~6.10.3"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "~14.1.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 3",
+    "eslint-plugin-import": "~2.2.0",
+    "eslint-plugin-jsx-a11y": "~4.0.0",
+    "eslint-plugin-react": "~6.10.3"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "node index.test.js"
+  }
+}
