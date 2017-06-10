@@ -7,11 +7,15 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ## [[v1.0.4]](https://github.com/springload/eslint-config-springload/releases/tag/v1.0.4)
 
+### Changed
+
+- Move source code to lib/index.js folder.
+
 ## [[v1.0.3]](https://github.com/springload/eslint-config-springload/releases/tag/v1.0.3)
 
 ### Changed
 
-- Ignore test files when publishing to npm
+- Ignore test files when publishing to npm.
 
 ## [[v1.0.2]](https://github.com/springload/eslint-config-springload/releases/tag/v1.0.2)
 
