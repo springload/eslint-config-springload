@@ -3,7 +3,6 @@ server
 .babelrc
 examples
 docs
-lib
 .npmignore
 webpack.config.prod.js
 webpack.config.dev.js
@@ -16,3 +15,4 @@ webpack.config.dev.js
 bin
 .env
 *.test.js
+__snapshots__

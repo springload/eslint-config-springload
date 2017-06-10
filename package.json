@@ -4,7 +4,7 @@
   "description": "Springload's ESLint shareable configuration",
   "license": "MIT",
   "author": "Springload",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/springload/eslint-config-springload"
@@ -44,5 +44,4 @@
     "test:ci": "npm run lint -s && npm run test:coverage -s",
     "report:coverage": "open coverage/lcov-report/index.html"
   }
-
 }
