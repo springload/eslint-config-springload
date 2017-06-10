@@ -5,6 +5,14 @@ This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html
 
 ## Unreleased
 
+## [[v1.0.4]](https://github.com/springload/eslint-config-springload/releases/tag/v1.0.4)
+
+## [[v1.0.3]](https://github.com/springload/eslint-config-springload/releases/tag/v1.0.3)
+
+### Changed
+
+- Ignore test files when publishing to npm
+
 ## [[v1.0.2]](https://github.com/springload/eslint-config-springload/releases/tag/v1.0.2)
 
 ### Fixed
