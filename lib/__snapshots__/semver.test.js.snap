@@ -126,15 +126,15 @@ Object {
 
 exports[`semver - should those tests break, consider releasing a new major version of the package dependencies 1`] = `
 Object {
-  "eslint-config-airbnb": "~14.1.0",
+  "eslint-config-airbnb": "^15.1.0",
 }
 `;
 
 exports[`semver - should those tests break, consider releasing a new major version of the package peerDependencies 1`] = `
 Object {
-  "eslint": ">= 3",
-  "eslint-plugin-import": "~2.2.0",
-  "eslint-plugin-jsx-a11y": "~3.0.2",
-  "eslint-plugin-react": "~6.10.3",
+  "eslint": "^3.19.0 || ^4.3.0",
+  "eslint-plugin-import": "^2.7.0",
+  "eslint-plugin-jsx-a11y": "^5.1.1",
+  "eslint-plugin-react": "^7.1.0",
 }
 `;
