@@ -52,6 +52,17 @@ Object {
         "ignoreUrls": true,
       },
     ],
+    "no-console": Array [
+      1,
+      Object {
+        "allow": Array [
+          "warn",
+          "error",
+          "time",
+          "timeEnd",
+        ],
+      },
+    ],
     "no-multi-spaces": Array [
       0,
     ],
