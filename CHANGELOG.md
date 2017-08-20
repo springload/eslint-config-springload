@@ -3,7 +3,13 @@
 > All notable changes to this project are documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## Unreleased
+## [[v1.0.5]](https://github.com/springload/eslint-config-springload/releases/tag/v1.0.5)
+
+### Changed
+
+- Upgrade all ESLint dependencies.
+- Set laxer defaults for `no-console`, allowing most operations except for `console.log`.
+- Set laxer defaults for `no-param-reassign`, allowing reassigning properties of parameters.
 
 ## [[v1.0.4]](https://github.com/springload/eslint-config-springload/releases/tag/v1.0.4)
 
