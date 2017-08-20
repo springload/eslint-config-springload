@@ -3,7 +3,7 @@
 > All notable changes to this project are documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
-## [[v1.0.5]](https://github.com/springload/eslint-config-springload/releases/tag/v1.0.5)
+## [[v1.1.0]](https://github.com/springload/eslint-config-springload/releases/tag/v1.1.0)
 
 ### Changed
 
