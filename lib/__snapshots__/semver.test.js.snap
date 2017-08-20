@@ -69,6 +69,12 @@ Object {
     "no-new": Array [
       1,
     ],
+    "no-param-reassign": Array [
+      2,
+      Object {
+        "props": false,
+      },
+    ],
     "no-plusplus": Array [
       0,
     ],
