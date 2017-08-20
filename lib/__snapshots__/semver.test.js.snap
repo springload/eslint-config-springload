@@ -11,6 +11,11 @@ Object {
   },
   "extends": Array [
     "airbnb",
+    "prettier",
+    "prettier/react",
+  ],
+  "plugins": Array [
+    "prettier",
   ],
   "rules": Object {
     "arrow-body-style": Array [
@@ -93,6 +98,15 @@ Object {
       2,
       "methods",
     ],
+    "prettier/prettier": Array [
+      "error",
+      Object {
+        "printWidth": 80,
+        "singleQuote": true,
+        "tabWidth": 4,
+        "trailingComma": "all",
+      },
+    ],
     "react/forbid-prop-types": Array [
       2,
       Object {
@@ -133,6 +147,7 @@ Object {
 exports[`semver - should those tests break, consider releasing a new major version of the package dependencies 1`] = `
 Object {
   "eslint-config-airbnb": "^15.1.0",
+  "eslint-config-prettier": "^2.3.0",
 }
 `;
 
@@ -142,5 +157,6 @@ Object {
   "eslint-plugin-import": "^2.7.0",
   "eslint-plugin-jsx-a11y": "^5.1.1",
   "eslint-plugin-react": "^7.1.0",
+  "prettier": "~1.5.3",
 }
 `;
