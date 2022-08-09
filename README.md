@@ -7,7 +7,7 @@
 Install the config and its dependencies:
 
 ```sh
-npm install --save-exact --save-dev eslint@^3.19.0 eslint-config-springload eslint-plugin-import@^2.7.0 eslint-plugin-jsx-a11y@^5.1.1
+yarn add --exact --dev eslint@^8.21.0 eslint-config-springload eslint-plugin-import@^2.26.0 eslint-plugin-jsx-a11y@^6.6.1
 ```
 
 Configure ESLint to use this config. For example, in your package.json, this would be:
@@ -27,7 +27,7 @@ git clone git@github.com:springload/eslint-config-springload.git
 cd eslint-config-springload
 nvm install
 # Then, install all project dependencies.
-npm install
+yarn
 # Install the git hooks.
 ./.githooks/deploy
 ```
@@ -36,9 +36,9 @@ npm install
 
 ```sh
 # Runs linting.
-npm run lint
+yarn lint
 # Runs tests.
-npm run test
+yarn test
 ```
 
 ### Releases
@@ -53,9 +53,9 @@ git chore release-vx.y.z
 irish-pub
 # 4. Update the [CHANGELOG](CHANGELOG.md) for the upcoming release.
 # 5. Update the README with the right install command. Use the next command to find out what those are.
-npm info eslint-config-springload@latest peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g'
+yarn info eslint-config-springload@latest peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g'
 # 6. Create a PR and merge it.
 # 7. On master,
-npm publish
+yarn publish
 # 8. Finally, go to GitHub and create a release and a tag for the new version.
 ```

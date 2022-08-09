@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-springload",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "Springload's ESLint shareable configuration",
   "license": "MIT",
   "author": "Springload",
@@ -15,35 +15,35 @@
     "eslint-config"
   ],
   "engines": {
-    "node": ">=4.0.0"
+    "node": ">=14.0.0"
   },
   "eslintConfig": {
     "extends": "./lib/index.js"
   },
   "devDependencies": {
-    "eslint": "^3.19.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-prettier": "^2.1.2",
-    "eslint-plugin-react": "^7.1.0",
-    "jest": "^20.0.4"
+    "eslint": "^8.21.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1",
+    "jest": "^28.1.3"
   },
   "dependencies": {
-    "eslint-config-airbnb": "^15.1.0"
+    "eslint-config-airbnb": "^19.0.4"
   },
   "peerDependencies": {
-    "eslint": "^3.19.0 || ^4.3.0",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^5.1.1",
-    "eslint-plugin-react": "^7.1.0"
+    "eslint": "^8.21.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-react": "^7.30.1"
   },
   "scripts": {
     "linter:js": "eslint",
-    "lint": "npm run linter:js -- lib",
+    "lint": "yarn run linter:js -- lib",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
-    "test:ci": "npm run lint -s && npm run test:coverage -s",
+    "test:ci": "yarn run lint -s -- && yarn run test:coverage -s --",
     "report:coverage": "open coverage/lcov-report/index.html"
   }
 }
