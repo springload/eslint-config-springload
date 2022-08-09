@@ -7,7 +7,7 @@
 Install the config and its dependencies:
 
 ```sh
-yarn add --exact --save-dev eslint@^8.21.0 eslint-config-springload eslint-plugin-import@^2.26.0 eslint-plugin-jsx-a11y@^6.6.1
+yarn add --exact --dev eslint@^8.21.0 eslint-config-springload eslint-plugin-import@^2.26.0 eslint-plugin-jsx-a11y@^6.6.1
 ```
 
 Configure ESLint to use this config. For example, in your package.json, this would be:
@@ -27,7 +27,7 @@ git clone git@github.com:springload/eslint-config-springload.git
 cd eslint-config-springload
 nvm install
 # Then, install all project dependencies.
-yarn install
+yarn
 # Install the git hooks.
 ./.githooks/deploy
 ```
